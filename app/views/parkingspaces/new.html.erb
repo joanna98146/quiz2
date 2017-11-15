@@ -1,0 +1,10 @@
+<div class="booyah-box">
+<h1>Parking Space Details</h1>
+<%= simple_form_for @parkingspaces do |f| %>
+<%= f.input :name %>
+<%= f.input :address %>
+<%= f.input :description %>
+<br />
+<%= f.submit 'Create', class: 'btn btn-primary' %>
+  <% end %>
+</div>
